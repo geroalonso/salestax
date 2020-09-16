@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+selenium = "*"
+datetime = "*"
+selenium-webdriver-common-keys = "*"
+webrdriver-manager = "*"
+webdriver-manager = "*"
+
+[requires]
+python_version = "3.7"
