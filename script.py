@@ -15,10 +15,11 @@ driver.get(url) #open tthe browser
 
 #first site
 class Corporation:
-	manager = 'Marcelo Fernandez Lopez'
+	manager = 'Tomas Venturas'
 	email = 'admin@ibericmalls.com'
 	collection_allowance = 30
-	pay_date = 18
+	pay_date = 15
+
 
 	def __init__ (self, certificate_number, business_partner_number, routing_number, account_number, gross_sales, exempt_sales, surtax_rate, tax_rate):
 		self.certificate_number = certificate_number
@@ -118,7 +119,7 @@ class Corporation:
 #select calendar,date and complete payment info
 		calendar_field = driver.find_element_by_id('CheckPayOnly11_BasicDate_Image')
 		calendar_field.click()
-		date_field = driver.find_element_by_xpath("//a[@class = 'bdpDayItem' and text()= '18']")
+		date_field = driver.find_element_by_xpath("//a[@class = 'bdpDayItem' and text()= '15']")
 		date_field.click()
 
 		routing_field = driver.find_element_by_id('CheckPayOnly11_zBankRoutingNumber')

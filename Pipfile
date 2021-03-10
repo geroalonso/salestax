@@ -11,6 +11,7 @@ datetime = "*"
 selenium-webdriver-common-keys = "*"
 webrdriver-manager = "*"
 webdriver-manager = "*"
+webdriver-manager-chrome = "*"
 
 [requires]
 python_version = "3.7"
