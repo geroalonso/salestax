@@ -15,7 +15,7 @@ driver.get(url) #open tthe browser
 
 #first site
 class Corporation:
-	manager = 'Tomas Venturas'
+	manager = 'Tomas Ventura'
 	email = 'admin@ibericmalls.com'
 	collection_allowance = 30
 	pay_date = 15
