@@ -209,12 +209,12 @@ port_richey_input_exempt_sales = float(input('Port Richey Exempt Sales '))
 
 
 doral_flex_one_llc = Corporation(2380163071674, 4183044, '066009155', 5111647506, doral_input_gross_sales, doral_input_exempt_sales, 0.01, 0.065 )
-total_biscayne_corp = Corporation(2380172137363, 5130704, '063107513', 2639887112, biscayne_input_gross_sales, biscayne_input_exempt_sales, 0.01, 0.065)
-plantation_one_llc = Corporation(1680162697015, 4108900, '063107513', 5474139416, plantation_input_gross_sales, plantation_input_exempt_sales, 0.01, 0.065 )
+total_biscayne_corp = Corporation(2380172137363, 5130704, '267084131', 707570617, biscayne_input_gross_sales, biscayne_input_exempt_sales, 0.01, 0.065)
+plantation_one_llc = Corporation(1680162697015, 4108900, '267084131', 708272767, plantation_input_gross_sales, plantation_input_exempt_sales, 0.01, 0.065 )
 sample_usa_corp = Corporation2(1680167653324, 4634432, '066004367' , 1954679458, sample_input_gross_sales, sample_input_exempt_sales, 0.01, 0.065 )
-#yellowbird_international_corp = Corporation(6080184109618, 6328239, '063114030', '0480575265', royal_input_gross_sales, royal_input_exempt_sales, 0.01, 0.065)
+yellowbird_international_corp = Corporation(6080184109618, 6328239, '063114030', '0480575265', royal_input_gross_sales, royal_input_exempt_sales, 0.01, 0.065)
 iberic_group_corp = Corporation(6080165217174, 4396784, '066009155', 5111767106, oaktree_input_gross_sales, oaktree_input_exempt_sales, 0.01, 0.065)
-new_orlando_team_corp = Corporation(5880174253364, 5309753, '063107513', 5474139408, hiawassee_input_gross_sales, hiawassee_input_exempt_sales, 0.005, 0.06)
+new_orlando_team_corp = Corporation(5880174253364, 5309753, '063114030', '0480575307', hiawassee_input_gross_sales, hiawassee_input_exempt_sales, 0.005, 0.06)
 new_florida_team_corp = Corporation2(6180171856528, 5103229, '066009155', 5111819006, port_richey_input_gross_sales, port_richey_input_exempt_sales, 0.01, 0.065)
 
 
