@@ -119,7 +119,7 @@ class Corporation:
 #select calendar,date and complete payment info
 		calendar_field = driver.find_element_by_id('CheckPayOnly11_BasicDate_Image')
 		calendar_field.click()
-		date_field = driver.find_element_by_xpath("//a[@class = 'bdpDayItem' and text()= '17']")
+		date_field = driver.find_element_by_xpath("//a[@class = 'bdpDayItem' and text()= '15']")
 		date_field.click()
 
 		routing_field = driver.find_element_by_id('CheckPayOnly11_zBankRoutingNumber')
@@ -197,8 +197,8 @@ plantation_input_gross_sales = float(input('Plantation Gross Sales '))
 plantation_input_exempt_sales = float(input('Plantation Exempt Sales '))
 sample_input_gross_sales = float(input('Sample Gross Sales '))
 sample_input_exempt_sales = float(input('Sample Exempt Sales '))
-# royal_input_gross_sales = float(input('Royal Gross Sales '))
-# royal_input_exempt_sales = float(input('Royal Exempt Sales '))
+royal_input_gross_sales = float(input('Royal Gross Sales '))
+royal_input_exempt_sales = float(input('Royal Exempt Sales '))
 oaktree_input_gross_sales = float(input('Oaktree Gross Sales '))
 oaktree_input_exempt_sales = float(input('Oaktree Exempt Sales '))
 hiawassee_input_gross_sales = float(input('Hiawaassee Gross Sales '))
@@ -234,9 +234,9 @@ sample_usa_corp.info_fillout_1()
 sample_usa_corp.taxes_fillout_2()
 sample_usa_corp.info_fillout_2()
 
-# yellowbird_international_corp.info_fillout_1()
-# yellowbird_international_corp.taxes_fillout()
-# yellowbird_international_corp.info_fillout_2()
+yellowbird_international_corp.info_fillout_1()
+yellowbird_international_corp.taxes_fillout()
+yellowbird_international_corp.info_fillout_2()
 
 
 iberic_group_corp.info_fillout_1()
